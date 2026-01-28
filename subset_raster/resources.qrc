@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/subset_raster" >
-		<file>icon.png</file>
-        <file>mka.png</file>
-        <file>coffee.svg</file>
-        <file>info.svg</file>
-        <file>refresh.png</file>
-    </qresource>
-</RCC>
