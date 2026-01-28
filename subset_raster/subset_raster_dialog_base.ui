@@ -603,7 +603,7 @@
           <cursorShape>WhatsThisCursor</cursorShape>
          </property>
          <property name="toolTip">
-          <string>The plugin automatically handles CRS conflicts; however, matching the SRS before clipping is recommended.</string>
+          <string>The plugin automatically handles CRS conflicts; however, matching the CRSs before clipping is recommended.</string>
          </property>
          <property name="styleSheet">
           <string notr="true">QLabel {
