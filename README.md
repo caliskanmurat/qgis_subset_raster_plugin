@@ -5,15 +5,11 @@ This plugin allows user to create subset of a raster quickly and easily. Two typ
 
 <img width="800" src="./images/image.png">
 <br/>
-<i>Generate Footprints</i> section is first part of the analysis. In this section a <i><b>Geopackage (GPKG)</b></i> file is created. This file contains informations about the tiles to be generated such as "<i>col_id, row_id, overlap_col, overlap_row, etc.</i>". Tiles that are not desired should be deleted from the attribute table of the GPKG file. The original raster file is splitted based on this file.
+<b>Extent of Subset:</b> Specifies the extent of the subset area. <i>Layer Extent</i>, <i>Canvas Extent</i>, and <i>Manual Draw</i> options are available, and the extent coordinates can also be entered manually. The coordinate reference system (CRS) of the subset extent is displayed in the lower-right corner.
 <br/>
 
 <br/>
-<b>Input  Raster Data:</b> Image to be splitted is specified here.
-<br/>
-
-<br/>
-<b>Chunk Size:</b> Width, Height sizes of each tile are specified here.
+<b>Output  Type:</b> Output type and compression method is specified here.
 <br/>
 
 <br/>
