@@ -1,4 +1,4 @@
-# QGIS Raster Divider Plugin
+# QGIS SUbset Raster
 
 This plugin helps users create raster subsets quickly and easily. Details are provided below:
 <br/><br/>
