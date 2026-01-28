@@ -1,15 +1,15 @@
 # QGIS Raster Divider Plugin
 
-This plugin allows user to create subset of a raster quickly and easily. Two types of output formats are available (GeoTiff, VRT).
+This plugin helps users create raster subsets quickly and easily. Details are provided below:
 <br/><br/>
 
-<img width="800" src="./images/image.png">
+<img width="800" src="./images/image_1.png">
 <br/>
-<b>Extent of Subset:</b> Specifies the extent of the subset area. <i>Layer Extent</i>, <i>Canvas Extent</i>, and <i>Manual Draw</i> options are available, and the extent coordinates can also be entered manually. The coordinate reference system (CRS) of the subset extent is displayed in the lower-right corner.
+<b>Extent of Subset:</b> Specifies the extent of the subset area. <i>Layer Extent</i>, <i>Canvas Extent</i>, and <i>Manual Draw</i> options are available, and the extent coordinates can also be entered manually. The coordinate reference system (CRS) of the subset extent is displayed in the lower-right corner. <img width="800" src="./images/image_2.png"> button can be used to change the CRS of extent.
 <br/>
 
 <br/>
-<b>Output  Type:</b> Output type and compression method is specified here.
+<b>Output  Type:</b> Output type and compression method is specified here. Two types of output formats are available (GeoTiff, VRT).
 <br/>
 
 <br/>
