@@ -5,7 +5,7 @@ This plugin helps users create raster subsets quickly and easily. Details are pr
 
 <img width="800" src="./images/image_1.png">
 <br/>
-<b>Extent of Subset:</b> Specifies the extent of the subset area. <i>Layer Extent</i>, <i>Canvas Extent</i>, and <i>Manual Draw</i> options are available, and the extent coordinates can also be entered manually. The coordinate reference system (CRS) of the subset extent is displayed in the lower-right corner. <img width="15" src="./images/image_2.png"> button can be used to change the CRS of extent.
+<b>Extent of Subset:</b> Specifies the extent of the subset area. <i>Layer Extent</i>, <i>Canvas Extent</i>, and <i>Manual Draw</i> options are available, and the extent coordinates can also be entered manually. The coordinate reference system (CRS) of the subset extent is displayed in the lower-right corner. <br/><span><img width="15" src="./images/image_2.png"></span> button can be used to change the CRS of extent.
 <br/>
 
 <br/>
