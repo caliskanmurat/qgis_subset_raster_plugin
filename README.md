@@ -32,5 +32,7 @@ This plugin helps users create raster subsets quickly and easily. Details are pr
 <br/>
 
 <br/>
-<b>Raster List:</b> The rasters to be clipped are listed here. Users can manage the rasters. If the path of a raster is shown in red, it indicates a conflict between the raster CRS and the extent CRS. <b>The plugin automatically handles CRS conflicts; however, matching the SRS before clipping is recommended.</b>
+<b>Raster List:</b> The rasters to be clipped are listed here. Users can manage the rasters. If the path of a raster is shown in red, it indicates a conflict between the raster CRS and the extent CRS.
 <br/>
+
+**Important:** The plugin automatically handles CRS conflicts; however, matching the SRS before clipping is recommended.
