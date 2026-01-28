@@ -25,8 +25,12 @@ This plugin allows user to create subset of a raster quickly and easily. Two typ
 <br/>
 
 <br/>
-<b>Get Raster Layers From Canvas:</b> Available raster layers are added to the raster list to be used for clipping.
-<b>Browse:</b> Rasters outside the canvas can be selected and added to the raster list to be used for clipping.
-<b>Remove Selected:</b> Rasters that are not intended to be used for clipping can be selected and removed from the raster list.
+<b>Get Raster Layers From Canvas:</b> Available raster layers are added to the raster list to be used for clipping.<br/>
+<b>Browse:</b> Rasters outside the canvas can be selected and added to the raster list to be used for clipping.<br/>
+<b>Remove Selected:</b> Rasters that are not intended to be used for clipping can be selected and removed from the raster list.<br/>
 <b>Clear:</b> This option is used to clear the raster list.
+<br/>
+
+<br/>
+<b>Raster List:</b> The rasters to be clipped are listed here. Users can manage the rasters. If the path of a raster is shown in red, it indicates a conflict between the raster CRS and the extent CRS. <b>The plugin automatically handles CRS conflicts; however, matching the SRS before clipping is recommended.</b>
 <br/>
