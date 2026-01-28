@@ -13,11 +13,20 @@ This plugin allows user to create subset of a raster quickly and easily. Two typ
 <br/>
 
 <br/>
-<b>Overlap:</b> Overlap sizes of each tile are specified here.
+<b>Extra Creation Options:</b> This section is optional. Creation options, other than compression method, can be specified here. (e.g. TFW=YES, BIGTIFF=YES)
 <br/>
 
 <br/>
-<b>Overlap Strategy:</b> There are two options for overlapping.<br/>
+<b>Output Folder Path:</b> The path of the folder where the output files are saved is specified here. If no path is specified, output files are saved to the QGIS default temporary folder.
+<br/>
 
-- <b><i>Auto</i></b> : In this method an auto overlapping is applied to tiles to make the subraster completely align with the original raster. For instance; if raster size is 1000 px and desired tile size is 150 px than 6 subraster would be generated with <b>100px residual</b>. In order to prevent this residual, subrasters are overlapped automatically even if the overlapping value is 0. If the overlapping value is set as a number greater than 0, subrasters are overlapped automatically <b>taking this value into account</b>.
-<br/><br/>
+<br/>
+<b>Add Alpha Band:</b> If this option is checked, an alpha band is added to the output raster files.
+<br/>
+
+<br/>
+<b>Get Raster Layers From Canvas:</b> Available raster layers are added to the raster list to be used for clipping.
+<b>Browse:</b> Rasters outside the canvas can be selected and added to the raster list to be used for clipping.
+<b>Remove Selected:</b> Rasters that are not intended to be used for clipping can be selected and removed from the raster list.
+<b>Clear:</b> This option is used to clear the raster list.
+<br/>
