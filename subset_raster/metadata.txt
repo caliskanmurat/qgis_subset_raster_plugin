@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Subset Raster
+qgisMinimumVersion=3.0
+description=This plugin allows user to create subset of a raster.
+version=1.0
+author=Murat Çalışkan
+email=caliskan.murat.20@gmail.com
+
+about=This plugin allows user to create subset of a raster.
+
+tracker=https://github.com/caliskanmurat/qgis_subset_raster_plugin/issues
+repository=https://github.com/caliskanmurat/qgis_subset_raster_plugin/tree/main/subset_raster
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, raster, subset, clip, mask, crop
+
+homepage=https://github.com/caliskanmurat/qgis_subset_raster_plugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
